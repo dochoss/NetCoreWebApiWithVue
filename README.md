@@ -5,7 +5,7 @@ Template with .Net Core 3.1 Web Api with a VueJS client without TypeScript.
 This template is based on [aspnetcore-vueclimiddleware](https://github.com/EEParker/aspnetcore-vueclimiddleware) by Github user EEParker.  It didn't get included in the default template selection for Visual Studio, which is a shame, but the code is still provided in the repo.
 
 # Changes to Base
-- Moved `WeatherForecase.cs` to the `Models` folder
+- Moved `WeatherForecast.cs` to the `Models` folder
 - Added Axios NPM library to the Vue project
 - Set baseURL for Axios in Vue `main.js` file to match default web API controller route (`/api`)
 - Added required dotnet package for VueCliMiddleware
