@@ -16,6 +16,8 @@ This template is based on [aspnetcore-vueclimiddleware](https://github.com/EEPar
 - npm install
 - cd ..
 - dotnet run -p NetCoreWebApiWithVue.csproj
+- `package.json` added to root project folder for easy running of Vue's npm scripts with Task Runner Explorer in Visual Studio
+  - These are just mirrors of the default Vue-CLI scripts (serve, build, lint) with `cd ClientApp && ` added in front of each command.
 
 # Installed Features
 - Axios for Http
@@ -24,9 +26,6 @@ This template is based on [aspnetcore-vueclimiddleware](https://github.com/EEPar
   - Vuex
 - ES Lint (default Vue-CLI configuration)
 - Node-Sass (default Vue-CLI configuration)
-
-- `package.json` added to root project folder for easy running of Vue's npm scripts with Task Runner Explorer in Visual Studio
-  - These are just mirrors of the default Vue-CLI scripts (serve, build, lint) with `cd ClientApp && ` added in front of each command.
 
 
 If you want to change your API routes, make sure to update `axios.defaults.baseURL` in ClientApp/src/main.js.  Existing setup uses .Net Core default of `/api/<endpoint>`
