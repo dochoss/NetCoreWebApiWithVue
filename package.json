@@ -1,0 +1,7 @@
+{
+    "scripts": {
+        "serve": "cd ClientApp && vue-cli-service serve",
+        "build": "cd ClientApp && vue-cli-service build",
+        "lint": "cd ClientApp && vue-cli-service lint"
+    }
+}

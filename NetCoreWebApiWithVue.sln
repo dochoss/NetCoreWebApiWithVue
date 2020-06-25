@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreWebApiWithVue", "NetCoreWebApiWithVue.csproj", "{9FABEB40-0668-4EFC-A8E9-1BF4156AC45F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FABEB40-0668-4EFC-A8E9-1BF4156AC45F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FABEB40-0668-4EFC-A8E9-1BF4156AC45F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FABEB40-0668-4EFC-A8E9-1BF4156AC45F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FABEB40-0668-4EFC-A8E9-1BF4156AC45F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9C3BA90-4F56-4923-8323-CF29560CA1CF}
+	EndGlobalSection
+EndGlobal
